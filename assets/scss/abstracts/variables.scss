@@ -1,0 +1,35 @@
+$white: #fff;
+$black: #000;
+
+$c1: #0e3033;
+$c2: #999999;
+
+$font-IBMPlex: "IBM Plex Sans";
+
+$colors: (
+  white: $white,
+  black: $black,
+  c1: $c1,
+  c2: $c2,
+);
+
+@each $label, $code in $colors {
+  .text-#{$label} {
+    color: $code;
+  }
+  .bg-#{$label} {
+    background-color: $code;
+  }
+  .bc-#{$label} {
+    border-color: $code;
+  }
+  .h-text-#{$label}:hover {
+    color: $code;
+  }
+  .h-bg-#{$label}:hover {
+    background-color: $code;
+  }
+  .h-bc-#{$label}:hover {
+    border-color: $code;
+  }
+}

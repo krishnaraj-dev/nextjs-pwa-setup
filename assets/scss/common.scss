@@ -1,0 +1,158 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("/images/icons/icomoon/fonts/icomoon.eot?tumop8");
+  src: url("/images/icons/icomoon/fonts/icomoon.eot?tumop8#iefix") format("embedded-opentype"),
+    url("/images/icons/icomoon/fonts/icomoon.ttf?tumop8") format("truetype"),
+    url("/images/icons/icomoon/fonts/icomoon.woff?tumop8") format("woff"),
+    url("/images/icons/icomoon/fonts/icomoon.svg?tumop8#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.nounderline:hover {
+  text-decoration: none;
+}
+
+button,
+button:focus {
+  outline: 0;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  &:hover,
+  &:focus {
+    outline: none;
+  }
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.cursor-pointer {
+  cursor: pointer !important;
+}
+
+.border-radius-4 {
+  border-radius: 4px;
+}
+
+img {
+  width: 100%;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.icons-rotate-90 {
+  [class^="icon-"] {
+    transform: rotate(180deg);
+  }
+}
+
+.bg-image-contain,
+.bg-image-cover {
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-image-contain {
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+}
+
+.bg-image-cover {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.aligncenter {
+  margin: 0 auto;
+}
+
+button {
+  &:focus {
+    outline: 0;
+    box-shadow: none !important;
+  }
+}
+
+.table-bordered {
+  thead {
+    th {
+      border-bottom: 0;
+    }
+  }
+  td,
+  th {
+    vertical-align: middle;
+    border: 1px solid #000;
+  }
+}
+
+ul {
+  li {
+    padding: 3px 0;
+  }
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.translateY-50 {
+  transform: translateY(-50%);
+}
+
+/* scrollbar design */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #999999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* typography */
+.border-1_2 {
+  border-width: 1.2px;
+  border-style: solid;
+}
+
+.w-50px {
+  width: 50px;
+}
+
+.w-100px {
+  width: 100px;
+}
+
+.h-50px {
+  height: 50px;
+}
+
+.mw-auto {
+  min-width: auto;
+}

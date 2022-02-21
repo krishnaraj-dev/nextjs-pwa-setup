@@ -1,0 +1,81 @@
+html,
+body {
+  font-family: "IBM Plex Sans";
+}
+
+p,
+.paragraph {
+  line-height: 24px;
+}
+
+h1,
+.title-h1 {
+  font-size: 48px;
+  line-height: 72px;
+}
+
+h2,
+.title-h2 {
+  font-size: 40px;
+  line-height: 60px;
+}
+
+h3,
+.title-h3 {
+  font-size: 32px;
+  line-height: 48px;
+}
+
+h4,
+.title-h4 {
+  font-size: 24px;
+  line-height: 36px;
+}
+
+h5,
+.title-h5 {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h6,
+.title-h6 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inherit;
+  color: inherit;
+}
+
+.lh-24 {
+  line-height: 24px;
+}
+
+.lh-18 {
+  line-height: 18px;
+}
+
+.lh-16 {
+  line-height: 16px;
+}
+
+.lh-12 {
+  line-height: 12px;
+}
+
+.fw-bold {
+  font-weight: bold;
+}

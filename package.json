@@ -1,0 +1,48 @@
+{
+  "name": "my_profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Project MyProfile",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "rm -rf node_modules/.cache && rimraf out && env-cmd -f .env next build && next export && touch out/.nojekyll && gh-pages -d out -t true",
+    "format": "prettier --write \"**/*.{js,jsx,json,md,scss}\""
+  },
+  "author": "Krishnaraj R",
+  "dependencies": {
+    "antd": "^4.1.1",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
+    "compression": "^1.7.4",
+    "date-fns": "^2.21.3",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.2",
+    "next": "^12.0.10",
+    "next-compose-plugins": "^2.2.0",
+    "next-fonts": "^1.0.3",
+    "next-images": "^1.4.0",
+    "next-pwa": "^5.4.4",
+    "next-routes": "^1.4.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-notifications": "^1.6.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "gh-pages": "^2.2.0",
+    "jimp": "^0.10.3",
+    "node-sass": "^4.14.1",
+    "prettier": "2.5.1",
+    "rimraf": "^3.0.0",
+    "sass-loader": "^12.6.0"
+  }
+}
